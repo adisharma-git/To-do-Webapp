@@ -29,8 +29,23 @@ h1 {
   justify-content: space-between;
 }
 .in input {
+  color: white;
   flex: 1;
   outline: none;
+  border: 2px solid pink;
   padding: 10px 10px 10px 20px;
   background: transparent;
+  border-radius: 10px;
+}
+.in button {
+  width: 50px;
+  background: none;
+  border: 2px solid pink;
+  margin-left: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 0;
+}
+.in i {
+  font-size: 24px;
 }
